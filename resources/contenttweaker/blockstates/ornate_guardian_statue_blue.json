@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "normal": [
+            { "model": "contenttweaker:ornate_guardian_statue_blue" }
+        ],
+        "inventory": { "model": "contenttweaker:ornate_guardian_statue_blue" }
+    }
+}
