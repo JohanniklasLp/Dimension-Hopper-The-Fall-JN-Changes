@@ -125,6 +125,7 @@ rocketBlocktwo.setEntitySpawnable(false);
 rocketBlocktwo.register();
 
 var rocketBoosterOne = VanillaFactory.createBlock("booster_block_1", <blockmaterial:iron>);
+rocketBoosterOne.setFullBlock(false);
 rocketBoosterOne.setBlockHardness(30.0);
 rocketBoosterOne.setBlockResistance(1000.0);
 rocketBoosterOne.setToolClass("pickaxe");
@@ -134,6 +135,7 @@ rocketBoosterOne.axisAlignedBB = AxisAlignedBB.create(0.2, 0, 0.2, 0.8, 1, 0.8);
 rocketBoosterOne.register();
 
 var rocketBoosterTwo = VanillaFactory.createBlock("booster_block_2", <blockmaterial:iron>);
+rocketBoosterTwo.setFullBlock(false);
 rocketBoosterTwo.setBlockHardness(60.0);
 rocketBoosterTwo.setBlockResistance(1800.0);
 rocketBoosterTwo.setToolClass("pickaxe");
@@ -375,3 +377,27 @@ heartofthemachinegod.setToolClass("pickaxe");
 heartofthemachinegod.setToolLevel(6);
 heartofthemachinegod.setEntitySpawnable(false);
 heartofthemachinegod.register();
+
+var yellowstatue = VanillaFactory.createBlock("ornate_guardian_statue_yellow", <blockmaterial:glass>);
+yellowstatue.setBlockLayer("CUTOUT");
+yellowstatue.setFullBlock(false);
+yellowstatue.setToolClass("pickaxe");
+yellowstatue.setToolLevel(0);
+yellowstatue.setEntitySpawnable(false);
+yellowstatue.register();
+
+var greenstatue = VanillaFactory.createBlock("ornate_guardian_statue_green", <blockmaterial:glass>);
+greenstatue.setBlockLayer("CUTOUT");
+greenstatue.setFullBlock(false);
+greenstatue.setToolClass("pickaxe");
+greenstatue.setToolLevel(0);
+greenstatue.setEntitySpawnable(false);
+greenstatue.register();
+
+var bluestatue = VanillaFactory.createBlock("ornate_guardian_statue_blue", <blockmaterial:glass>);
+bluestatue.setBlockLayer("CUTOUT");
+bluestatue.setFullBlock(false);
+bluestatue.setToolClass("pickaxe");
+bluestatue.setToolLevel(0);
+bluestatue.setEntitySpawnable(false);
+bluestatue.register();
