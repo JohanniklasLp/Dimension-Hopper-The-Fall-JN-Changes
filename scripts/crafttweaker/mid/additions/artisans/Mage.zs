@@ -230,6 +230,16 @@ static shapedHolders as Holder[] = [
     .addExtras([<mysticalagriculture:crafting:44>,<mysticalagriculture:crafting:44>,<mysticalagriculture:crafting:44>])
     .addNumbers([90,60,30]), //master infusion crystal
 
+  //Extra Utilities 2
+  Util.bigShaped(<extrautils2:simpledecorative>, "crystal", [
+    <plustic:mirionblock>,
+    <magicbees:resource:13>, 
+    <magicbees:wax>,
+    <thermalfoundation:dye:11>,
+    <botany:pigment:32>,
+    <thermalfoundation:dye:11>])
+    .addTools({<ore:artisansBurner>:300,<ore:artisansLens>:300,<ore:artisansGemCutter>:300}), //Enchanted Metal alt recipe
+
   //overloaded
   Util.bigShaped(<overloaded:nether_star_block>, "thicc", [<xreliquary:witherless_rose>, <minecraft:nether_star>])
     .addTools({<ore:artisansHammer>:420,<ore:artisansAthame>:420,<ore:artisansGrimoire>:420})
