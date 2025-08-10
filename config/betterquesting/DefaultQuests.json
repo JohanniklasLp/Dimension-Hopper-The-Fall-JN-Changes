@@ -56981,7 +56981,7 @@
           "desc:8": "quests.dimhopper.default.chapter9.1243.desc",
           "icon:10": {
             "Count:3": 1,
-            "id:8": "extraplanets:schematic_tier10_electric_rocket"
+            "id:8": "extraplanets:schematic_tier10"
           },
           "name:8": "quests.dimhopper.default.chapter9.1243.name",
           "snd_complete:8": "contenttweaker:questcommon",
@@ -56995,7 +56995,7 @@
           "requiredItems:9": {
             "0:10": {
               "Count:3": 1,
-              "id:8": "extraplanets:schematic_tier10_electric_rocket"
+              "id:8": "extraplanets:schematic_tier10"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -72411,12 +72411,8 @@
           "desc:8": "quests.dimhopper.default.bosses.81686143.desc",
           "icon:10": {
             "Count:3": 1,
-            "id:8": "minecraft:spawn_egg",
-            "tag:10": {
-              "EntityTag:10": {
-                "id:8": "aoa3:blue_guardian"
-              }
-            }
+            "id:8": "contenttweaker:ornate_guardian_statue_blue",
+            "tag:10": {}
           },
           "name:8": "quests.dimhopper.default.bosses.81686143.name",
           "questlogic:8": "OR",
@@ -72709,12 +72705,8 @@
           "desc:8": "quests.dimhopper.default.bosses.287457859.desc",
           "icon:10": {
             "Count:3": 1,
-            "id:8": "minecraft:spawn_egg",
-            "tag:10": {
-              "EntityTag:10": {
-                "id:8": "aoa3:yellow_guardian"
-              }
-            }
+            "id:8": "contenttweaker:ornate_guardian_statue_yellow",
+			"tag:10": {}
           },
           "name:8": "quests.dimhopper.default.bosses.287457859.name",
           "questlogic:8": "OR",
@@ -73819,12 +73811,8 @@
           "desc:8": "quests.dimhopper.default.bosses.783863246.desc",
           "icon:10": {
             "Count:3": 1,
-            "id:8": "minecraft:spawn_egg",
-            "tag:10": {
-              "EntityTag:10": {
-                "id:8": "aoa3:green_guardian"
-              }
-            }
+            "id:8": "contenttweaker:ornate_guardian_statue_green",
+            "tag:10": {}
           },
           "name:8": "quests.dimhopper.default.bosses.783863246.name",
           "questlogic:8": "OR",
