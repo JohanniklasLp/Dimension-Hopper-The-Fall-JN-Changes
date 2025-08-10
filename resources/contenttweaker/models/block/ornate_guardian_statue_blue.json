@@ -4,12 +4,12 @@
 	"parent": "minecraft:block/block",
 	"texture_size": [32, 32],
 	"textures": {
-		"1": "blocks/statue/bcenter",
-		"2": "blocks/statue/bright",
-		"3": "blocks/statue/bleft",
-		"4": "blocks/statue/legleft",
-		"5": "blocks/statue/legright",
-		"particle": "blocks/statue/bcenter"
+		"1": "contenttweaker:blocks/statue/bcenter",
+		"2": "contenttweaker:blocks/statue/bright",
+		"3": "contenttweaker:blocks/statue/bleft",
+		"4": "contenttweaker:blocks/statue/legleft",
+		"5": "contenttweaker:blocks/statue/legright",
+		"particle": "contenttweaker:blocks/statue/bcenter"
 	},
 	"elements": [
 		{
