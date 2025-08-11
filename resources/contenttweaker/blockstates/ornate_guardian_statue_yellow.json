@@ -1,7 +1,10 @@
 {
     "variants": {
         "normal": [
-            { "model": "contenttweaker:ornate_guardian_statue_yellow" }
+            { "model": "contenttweaker:ornate_guardian_statue_yellow" },
+            { "model": "contenttweaker:ornate_guardian_statue_yellow", "y": 90 },
+            { "model": "contenttweaker:ornate_guardian_statue_yellow", "y": 180 },
+            { "model": "contenttweaker:ornate_guardian_statue_yellow", "y": 270 }
         ],
         "inventory": { "model": "contenttweaker:ornate_guardian_statue_yellow" }
     }
