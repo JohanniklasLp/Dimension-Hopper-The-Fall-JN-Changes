@@ -26,6 +26,7 @@ static arrayRemovals as IItemStack[][] = [
 	Helper.getRemovalItems("conduit",Global.conduits),
 	Helper.getRemovalItems("helm",Global.helmets),
 	Helper.getRemovalItems("jaopca:block",Global.joapcaBlocks),
+	Helper.getRemovalItems("legs",Global.legs),
 
 	//oredict---------------------------------------------------------------------------------------------------------------
 	<ore:blockConstructionAlloy>.itemArray,
