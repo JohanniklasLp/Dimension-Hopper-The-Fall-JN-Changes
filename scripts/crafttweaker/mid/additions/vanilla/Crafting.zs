@@ -126,6 +126,27 @@ static shapedBuilders as Holder[] = [
         <ore:cobblestone>,
         <ore:gearWood>]), //Grindstone
 
+	Util.dynamicShaped(<appliedenergistics2:sky_stone_chest>, {
+        <appliedenergistics2:sky_stone_block>:[0,1,2,3,5,6,7,8]
+    }), //Sky Stone Chest
+
+	Util.dynamicShaped(<appliedenergistics2:smooth_sky_stone_chest>, {
+        <appliedenergistics2:smooth_sky_stone_block>:[0,1,2,3,5,6,7,8]
+    }), //Sky Stone Block Chest
+
+	//aetherii-------------------------------------------------------------------------------------------------------------
+	Util.dynamicShaped(<aether:skyroot_chest>, {
+        <aether:skyroot_planks>:[0,1,2,3,5,6,7,8]
+    }), //Skyroot Chest (Skyroot Planks)
+
+	Util.dynamicShaped(<aether:skyroot_chest>, {
+        <aether:light_skyroot_planks>:[0,1,2,3,5,6,7,8]
+    }), //Skyroot Chest (Wisproot Planks)
+
+	Util.dynamicShaped(<aether:skyroot_chest>, {
+        <aether:dark_skyroot_planks>:[0,1,2,3,5,6,7,8]
+    }), //Skyroot Chest (Greatroot Planks)
+
     //aroma1997sdimension---------------------------------------------------------------------------------------------------
     Util.simpleShaped(<aroma1997sdimension:miningmultitool>, "wide", [
         <actuallyadditions:stone_paxel>,
@@ -141,6 +162,40 @@ static shapedBuilders as Holder[] = [
 
     //artisanworktables-----------------------------------------------------------------------------------------------------
     Util.simpleShaped(<artisanworktables:worktable:5>, "ring", [ <ore:workbench>, <ore:logWood> ]), //Basic Worktable
+
+	//atum------------------------------------------------------------------------------------------------------------------
+	Util.dynamicShaped(<atum:limestone_chest>, {
+        <atum:limestone>:[0,1,2,3,5,6,7,8]
+    }), //Limestone Chest
+
+	//blueskies------------------------------------------------------------------------------------------------------------
+	Util.dynamicShaped(<blue_skies:bluebright_chest>, {
+        <blue_skies:bluebright_planks>:[0,1,2,3,5,6,7,8]
+    }), //Bluebright Chest
+
+	Util.dynamicShaped(<blue_skies:cherry_chest>, {
+        <blue_skies:cherry_planks>:[0,1,2,3,5,6,7,8]
+    }), //Cherry Chest
+
+	Util.dynamicShaped(<blue_skies:dusk_chest>, {
+        <blue_skies:dusk_planks>:[0,1,2,3,5,6,7,8]
+    }), //Dusk Chest
+
+	Util.dynamicShaped(<blue_skies:frostbright_chest>, {
+        <blue_skies:frostbright_planks>:[0,1,2,3,5,6,7,8]
+    }), //Frostbright Chest
+
+	Util.dynamicShaped(<blue_skies:lunar_chest>, {
+        <blue_skies:lunar_planks>:[0,1,2,3,5,6,7,8]
+    }), //Lunar Chest
+
+	Util.dynamicShaped(<blue_skies:maple_chest>, {
+        <blue_skies:maple_planks>:[0,1,2,3,5,6,7,8]
+    }), //Maple Chest
+
+	Util.dynamicShaped(<blue_skies:starlit_chest>, {
+        <blue_skies:starlit_planks>:[0,1,2,3,5,6,7,8]
+    }), //Starlit Chest
 
     //bonsaitrees-----------------------------------------------------------------------------------------------------------
     Util.dynamicShaped(<bonsaitrees:bonsaipot>, { <minecraft:brick>:[0,1,3], <minecraft:gold_ingot>:[2,4] }, 
@@ -272,6 +327,12 @@ static shapedBuilders as Holder[] = [
         <ore:blockGlassHardened>:[4]
     }), //Tank
 
+	//erebus----------------------------------------------------------------------------------------------------------------
+	Util.dynamicShaped(<erebus:petrified_wood_chest>, {
+        <erebus:planks_petrified_wood>:[0,1,2,3,5,6,7,8],
+		<minecraft:gold_ingot>:[4]
+    }), //Petrified Wood Chest
+
     //exchangers------------------------------------------------------------------------------------------------------------
     Util.dynamicShaped(<exchangers:eio_endergy_exchanger_core_tier2>, {
         <enderio:block_holier_fog>:[0,2,6,8],
@@ -316,6 +377,11 @@ static shapedBuilders as Holder[] = [
         <extraplanets:tier1_pressure_layer>
     ]), //Tier 1 Space Suit Boots
 
+	//glacidus--------------------------------------------------------------------------------------------------------------
+	Util.dynamicShaped(<glacidus:underground_chest>, {
+        <glacidus:underground_planks>:[0,1,2,3,5,6,7,8]
+    }), //Underground Chest
+
     //hunting dimension-----------------------------------------------------------------------------------------------------
     Util.simpleShaped(<huntingdim:frame>, "plus", [<ore:arrow>, <ore:logWood>, <thermalfoundation:material:128>])
         .setMarkIndex(1)
@@ -332,6 +398,58 @@ static shapedBuilders as Holder[] = [
         <moreplates:pulsating_iron_gear>,
         <avaritia:compressed_crafting_table>
     ]), //Machine Reader
+
+	//midnight--------------------------------------------------------------------------------------------------------------
+	Util.dynamicShaped(<midnight:shadowroot_chest>, {
+        <midnight:shadowroot_planks>:[0,1,2,3,5,6,7,8]
+    }), //Shadowroot Chest (Shadowroot)
+
+	Util.dynamicShaped(<midnight:shadowroot_chest>, {
+        <midnight:dead_wood_planks>:[0,1,2,3,5,6,7,8]
+    }), //Shadowroot Chest (Dead Wood)
+
+	Util.dynamicShaped(<midnight:shadowroot_chest>, {
+        <midnight:dark_willow_planks>:[0,1,2,3,5,6,7,8]
+    }), //Shadowroot Chest (Dark Willow)
+
+	Util.dynamicShaped(<midnight:shadowroot_chest>, {
+        <midnight:nightshroom_planks>:[0,1,2,3,5,6,7,8]
+    }), //Shadowroot Chest (Nightshroom)
+
+	Util.dynamicShaped(<midnight:shadowroot_chest>, {
+        <midnight:dewshroom_planks>:[0,1,2,3,5,6,7,8]
+    }), //Shadowroot Chest (Dewshroom)
+
+	Util.dynamicShaped(<midnight:shadowroot_chest>, {
+        <midnight:viridshroom_planks>:[0,1,2,3,5,6,7,8]
+    }), //Shadowroot Chest (Viridshroom)
+
+	//mist-----------------------------------------------------------------------------------------------------------------
+	Util.dynamicShaped(<mist:niobium_chest>, {
+        <mist:niobium_ingot>:[0,1,2,3,5,6,7,8]
+    }), //Niobium Chest
+
+	Util.dynamicShaped(<mist:niobium_chest_trapped>, {
+        <mist:niobium_ingot>:[0,1,2,3,5,6,7,8],
+		<minecraft:redstone>:[4]
+    }), //Niobium Trapped Chest
+
+	//moreplanets-----------------------------------------------------------------------------------------------------------
+	Util.dynamicShaped(<moreplanets:infected_chest>, {
+        <moreplanets:infected_oak_planks>:[0,1,2,3,5,6,7,8]
+    }), //Infected Chest
+
+	Util.dynamicShaped(<moreplanets:cheese_spore_chest>, {
+        <moreplanets:cheese_spore_planks>:[0,1,2,3,5,6,7,8]
+    }), //Cheese Spore Chest
+
+	Util.dynamicShaped(<moreplanets:alien_chest>, {
+        <moreplanets:alien_ship_decoration_1>:[0,1,2,3,5,6,7,8]
+    }), //Alien Chest
+
+	Util.dynamicShaped(<moreplanets:alien_berry_chest>, {
+        <moreplanets:alien_berry_oak_planks>:[0,1,2,3,5,6,7,8]
+    }), //Alien Berry Chest
 
     //moreplates------------------------------------------------------------------------------------------------------------
     Util.dynamicShaped(<moreplates:end_steel_gear>, {
@@ -487,6 +605,10 @@ static shapedBuilders as Holder[] = [
 
     //thebetweenlands-------------------------------------------------------------------------------------------------------
     Util.dynamicShaped(<thebetweenlands:rubber_boots>, { <thebetweenlands:items_misc:23>:[0,2,3,5] }, 3, 2), //Rubber Boots
+
+	Util.dynamicShaped(<thebetweenlands:weedwood_chest>, {
+        <thebetweenlands:weedwood_planks>:[0,1,2,3,5,6,7,8]
+    }), //Weedwood Chest
 
     //thermalexpansion------------------------------------------------------------------------------------------------------
     Util.dynamicShaped(<thermalexpansion:augment:369>, {
@@ -677,6 +799,9 @@ static shapelessBuilders as Holder[] = [
 
     Util.shapeless(<minecraft:enchanting_table>, [<eplus:advanced_table>, 
         <draconicevolution:draconic_core>]), //Enchanting Table
+
+	Util.shapeless(<minecraft:trapped_chest>, [<minecraft:chest>, 
+        <minecraft:tripwire_hook>]), //Trapped Chest
 
     //moreplanets-----------------------------------------------------------------------------------------------------------
     Util.shapeless(<moreplanets:black_hole_storage_schematic>, 
