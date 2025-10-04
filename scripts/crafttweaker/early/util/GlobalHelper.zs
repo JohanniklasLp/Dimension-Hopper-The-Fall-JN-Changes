@@ -788,9 +788,9 @@ static enchantBlacklist as IItemStack[][string] = {
         <immersiveengineering:steel_armor_legs>,
         <lightningcraft:kinetic_legs>,
         <lockyzextradimensionsmod:cloudarmourlegs>,
-        <lockyzextradimensionsmod:emeraldarmourlegs>
+        <lockyzextradimensionsmod:emeraldarmourlegs>,
         <lockyzextradimensionsmod:lapisarmourlegs>,
-        <lockyzextradimensionsmod:redstonearmourlegs>
+        <lockyzextradimensionsmod:redstonearmourlegs>,
         <mekanismtools:bronzeleggings>,
         <mekanismtools:glowstoneleggings>,
         <mekanismtools:lapislazulileggings>,
