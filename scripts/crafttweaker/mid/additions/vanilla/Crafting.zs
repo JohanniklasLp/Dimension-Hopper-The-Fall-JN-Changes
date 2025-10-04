@@ -136,16 +136,8 @@ static shapedBuilders as Holder[] = [
 
 	//aetherii-------------------------------------------------------------------------------------------------------------
 	Util.dynamicShaped(<aether:skyroot_chest>, {
-        <aether:skyroot_planks>:[0,1,2,3,5,6,7,8]
-    }), //Skyroot Chest (Skyroot Planks)
-
-	Util.dynamicShaped(<aether:skyroot_chest>, {
-        <aether:light_skyroot_planks>:[0,1,2,3,5,6,7,8]
-    }), //Skyroot Chest (Wisproot Planks)
-
-	Util.dynamicShaped(<aether:skyroot_chest>, {
-        <aether:dark_skyroot_planks>:[0,1,2,3,5,6,7,8]
-    }), //Skyroot Chest (Greatroot Planks)
+        <ore:skyrootplanks>:[0,1,2,3,5,6,7,8]
+    }), //Skyroot Chest
 
     //aroma1997sdimension---------------------------------------------------------------------------------------------------
     Util.simpleShaped(<aroma1997sdimension:miningmultitool>, "wide", [
@@ -401,28 +393,8 @@ static shapedBuilders as Holder[] = [
 
 	//midnight--------------------------------------------------------------------------------------------------------------
 	Util.dynamicShaped(<midnight:shadowroot_chest>, {
-        <midnight:shadowroot_planks>:[0,1,2,3,5,6,7,8]
-    }), //Shadowroot Chest (Shadowroot)
-
-	Util.dynamicShaped(<midnight:shadowroot_chest>, {
-        <midnight:dead_wood_planks>:[0,1,2,3,5,6,7,8]
-    }), //Shadowroot Chest (Dead Wood)
-
-	Util.dynamicShaped(<midnight:shadowroot_chest>, {
-        <midnight:dark_willow_planks>:[0,1,2,3,5,6,7,8]
-    }), //Shadowroot Chest (Dark Willow)
-
-	Util.dynamicShaped(<midnight:shadowroot_chest>, {
-        <midnight:nightshroom_planks>:[0,1,2,3,5,6,7,8]
-    }), //Shadowroot Chest (Nightshroom)
-
-	Util.dynamicShaped(<midnight:shadowroot_chest>, {
-        <midnight:dewshroom_planks>:[0,1,2,3,5,6,7,8]
-    }), //Shadowroot Chest (Dewshroom)
-
-	Util.dynamicShaped(<midnight:shadowroot_chest>, {
-        <midnight:viridshroom_planks>:[0,1,2,3,5,6,7,8]
-    }), //Shadowroot Chest (Viridshroom)
+        <ore:plankWoodMidnight>:[0,1,2,3,5,6,7,8]
+    }), //Shadowroot Chest
 
 	//mist-----------------------------------------------------------------------------------------------------------------
 	Util.dynamicShaped(<mist:niobium_chest>, {
