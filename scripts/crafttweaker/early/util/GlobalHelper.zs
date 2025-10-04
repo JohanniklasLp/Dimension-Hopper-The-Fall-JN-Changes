@@ -5,7 +5,7 @@ import crafttweaker.item.IItemStack;
 
 static enchantBlacklist as IItemStack[][string] = {
     "axe": [
-         <aoa3:energistic_axe>,
+        <aoa3:energistic_axe>,
         <aoa3:energistic_pickaxe>,
         <aoa3:occult_axe>,
         <aoa3:occult_pickaxe>,
@@ -749,6 +749,8 @@ static enchantBlacklist as IItemStack[][string] = {
         <midnight:rockshroom_leggings>,
         <midnight:tenebrum_leggings>,
         <minecraft:diamond_leggings>,
+        <minecraft:golden_leggings>,
+        <minecraft:iron_leggings>,
         <minecraft:leather_leggings>,
         <mist:niobium_leggings>,
         <moreplanets:diremsium_leggings>,
