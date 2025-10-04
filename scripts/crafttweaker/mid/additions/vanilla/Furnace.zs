@@ -48,12 +48,12 @@ static recipeMap as double[IIngredient][IItemStack] = {
 	<atum:limestone>:{<atum:limestone_cracked>:0.1}, //Limestone
 	<biomesoplenty:mud_brick>:{<biomesoplenty:mudball>:0.1}, //Mud Brick
 	<blue_skies:azulfo_steak>:{<blue_skies:raw_azulfo_beef>:0.1}, //Smoked Carabeef
-	<blue_skies:charoite>:{<blue_skies:everbright_charoite_ore>:0.1}, //Charoite
-	<blue_skies:charoite>:{<blue_skies:everdawn_charoite_ore>:0.1}, //Charoite
+	<blue_skies:charoite>:{<blue_skies:everbright_charoite_ore>:0.1}, //Charoite (Everbright)
+	<blue_skies:charoite>:{<blue_skies:everdawn_charoite_ore>:0.1}, //Charoite (Everdawn)
 	<blue_skies:cracked_lunar_stonebrick>:{<blue_skies:lunar_stonebrick>:0.1}, //Cracked Lunar Stone Bricks
 	<blue_skies:cracked_turquoise_stonebrick>:{<blue_skies:turquoise_stonebrick>:0.1}, //Cracked Turquoise Stone Bricks
 	<blue_skies:crystal_glass>:{<blue_skies:crystal_sand>:0.1}, //Crystal Glass
-	<blue_skies:horizonite_ingot>:{<blue_skies:horizonite:ore>:0.1}, //Horizonite Ingot
+	<blue_skies:horizonite_ingot>:{<blue_skies:horizonite_ore>:0.1}, //Horizonite Ingot
 	<blue_skies:lunar_stone>:{<blue_skies:lunar_cobblestone>:0.1}, //Lunar Stone
 	<blue_skies:midnight_glass>:{<blue_skies:midnight_sand>:0.1}, //Midnight Glass
 	<blue_skies:turquoise_stone>:{<blue_skies:turquoise_cobblestone>:0.1}, //Turquoise Stone
@@ -185,8 +185,8 @@ static recipeMap as double[IIngredient][IItemStack] = {
 	<tconstruct:slime_channel:4>*3:{<tconstruct:slime_congealed:4>:0.1}, //Magma Slime Channel
 	<tconstruct:slime_channel:5>*3:{<tconstruct:slime_congealed:5>:0.1}, //Pink Slime Channel
 	<tconstruct:soil:4>:{<tconstruct:soil:3>:0.1}, //Consecrated Soil
+	<theaurorian:aurorianporkcooked>:{<theaurorian:aurorianpork>:0.1}, //Cooked Aurorian Pork
 	<theaurorian:aurorianstone>:{<theaurorian:auroriancobblestone>:0.1}, //Aurorian Stone
-	<theaurorianporkcooked>:{<theaurorian:aurorianpork>:0.1}, //Cooked Aurorian Pork
 	<thebetweenlands:anadia_meat_cooked>:{<thebetweenlands:anadia_meat_raw>:0.1}, //Cooked Anadia Meat
 	<thebetweenlands:barnacle_cooked>:{<thebetweenlands:barnacle>:0.1}, //Cooked Barnacle Flesh
 	<thebetweenlands:cracked_betweenstone_bricks>:{<thebetweenlands:betweenstone_bricks>:0.1}, //Cracked Betweenstone Bricks
