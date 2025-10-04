@@ -369,6 +369,25 @@ static shapedBuilders as Holder[] = [
         <extraplanets:tier1_pressure_layer>
     ]), //Tier 1 Space Suit Boots
 
+	//forestry-------------------------------------------------------------------------------------------------------------
+	Util.dynamicShaped(<forestry:tree_chest:0>, {
+        <ore:blockGlass>:[1],
+		<ore:chestWood>:[4],
+		<ore:treeSapling>:[3,5,6,7,8]
+    }), //Arborist's Chest
+
+	Util.dynamicShaped(<forestry:butterfly_chest:0>, {
+        <ore:blockGlass>:[1],
+		<ore:chestWood>:[4],
+		<forestry:butterfly_ge:0>.anyDamage():[3,5,6,7,8]
+    }), //Lepidopterist's Chest
+
+	Util.dynamicShaped(<forestry:bee_chest:0>, {
+        <ore:blockGlass>:[1],
+		<ore:chestWood>:[4],
+		<ore:beeComb>:[3,5,6,7,8]
+    }), //Apiarist's Chest
+
 	//glacidus--------------------------------------------------------------------------------------------------------------
 	Util.dynamicShaped(<glacidus:underground_chest>, {
         <glacidus:underground_planks>:[0,1,2,3,5,6,7,8]
