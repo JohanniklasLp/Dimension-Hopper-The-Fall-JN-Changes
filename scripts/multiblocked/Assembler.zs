@@ -38,6 +38,96 @@ static recipes as Recipe[] = [
 
 val assemblerRP as RecipeMap = map;
 
+//Mob Imprisonment Tool
+assemblerRP.start()
+	.duration(600)
+	.perTick(true)
+	.inputFE(1000)
+	.perTick(false)
+	.inputItems(<industrialforegoing:plastic>*4,<minecraft:ghast_tear>,<thermalexpansion:morb:1>)
+	.outputItems(<industrialforegoing:mob_imprisonment_tool>)
+	.buildAndRegister();
+
+//white conveyor belt
+assemblerRP.start()
+	.duration(20)
+	.perTick(true)
+	.inputFE(500)
+	.perTick(false)
+	.inputItems(<enderio:item_material:12>*2,<minecraft:redstone>,<industrialforegoing:plastic>*6,<immersiveengineering:conveyor>*4)
+	.outputItems(<industrialforegoing:conveyor>*4)
+	.buildAndRegister();
+	
+//Extraction Conveyor Upgrade
+assemblerRP.start()
+	.duration(40)
+	.perTick(true)
+	.inputFE(500)
+	.perTick(false)
+	.inputItems(<industrialforegoing:plastic>*8,<moreplates:stellar_alloy_gear>*2,<minecraft:dispenser>,<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:extract"}))
+	.outputItems(<industrialforegoing:conveyor_upgrade:0>)
+	.buildAndRegister();
+
+//Insertion Conveyor Upgrade
+assemblerRP.start()
+	.duration(40)
+	.perTick(true)
+	.inputFE(500)
+	.perTick(false)
+	.inputItems(<industrialforegoing:plastic>*8,<moreplates:stellar_alloy_gear>*2,<naturesaura:hopper_upgrade>)
+	.outputItems(<industrialforegoing:conveyor_upgrade:1>)
+	.buildAndRegister();
+
+//Detection Conveyor Upgrade
+assemblerRP.start()
+	.duration(40)
+	.perTick(true)
+	.inputFE(500)
+	.perTick(false)
+	.inputItems(<industrialforegoing:plastic>*8,<moreplates:stellar_alloy_gear>*2,<natura:blaze_rail_detector>)
+	.outputItems(<industrialforegoing:conveyor_upgrade:2>)
+	.buildAndRegister();
+
+//Bouncing Conveyor Upgrade
+assemblerRP.start()
+	.duration(40)
+	.perTick(true)
+	.inputFE(500)
+	.perTick(false)
+	.inputItems(<industrialforegoing:plastic>*8,<moreplates:stellar_alloy_gear>*2,<aether:aercloud:1>)
+	.outputItems(<industrialforegoing:conveyor_upgrade:3>)
+	.buildAndRegister();
+
+//Dropping Conveyor Upgrade
+assemblerRP.start()
+	.duration(40)
+	.perTick(true)
+	.inputFE(500)
+	.perTick(false)
+	.inputItems(<industrialforegoing:plastic>*8,<moreplates:stellar_alloy_gear>*2,<minecraft:dropper>,<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:dropper"}))
+	.outputItems(<industrialforegoing:conveyor_upgrade:4>)
+	.buildAndRegister();
+	
+//Blinking Conveyor Upgrade
+assemblerRP.start()
+	.duration(40)
+	.perTick(true)
+	.inputFE(500)
+	.perTick(false)
+	.inputItems(<industrialforegoing:plastic>*8,<moreplates:stellar_alloy_gear>*2,<mekanism:teleportationcore>)
+	.outputItems(<industrialforegoing:conveyor_upgrade:5>)
+	.buildAndRegister();
+
+//Splitting Conveyor Upgrade
+assemblerRP.start()
+	.duration(40)
+	.perTick(true)
+	.inputFE(500)
+	.perTick(false)
+	.inputItems(<industrialforegoing:plastic>*8,<moreplates:stellar_alloy_gear>*2,<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:splitter"}))
+	.outputItems(<industrialforegoing:conveyor_upgrade:6>)
+	.buildAndRegister();
+
 //animal grower
 assemblerRP.start()
 	.duration(600)
