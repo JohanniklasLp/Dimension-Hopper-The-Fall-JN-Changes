@@ -325,6 +325,87 @@ static shapedBuilders as Holder[] = [
                     Damage: map.mark.metadata as short}});
             } as IRecipeFunction), //Hunting Dimension Portal Frame
 
+	//industrialforegoing---------------------------------------------------------------------------------------------------
+	Util.dynamicShaped(<industrialforegoing:conveyor:0>*8, {
+        <industrialforegoing:conveyor>.anyDamage():[0,1,2,3,5,6,7,8],
+		<industrialforegoing:artificial_dye:0>:[4]
+    }), //White Conveyor Belt
+	
+	Util.dynamicShaped(<industrialforegoing:conveyor:1>*8, {
+        <industrialforegoing:conveyor>.anyDamage():[0,1,2,3,5,6,7,8],
+		<industrialforegoing:artificial_dye:1>:[4]
+    }), //Orange Conveyor Belt
+	
+	Util.dynamicShaped(<industrialforegoing:conveyor:2>*8, {
+        <industrialforegoing:conveyor>.anyDamage():[0,1,2,3,5,6,7,8],
+		<industrialforegoing:artificial_dye:2>:[4]
+    }), //Magenta Conveyor Belt
+	
+	Util.dynamicShaped(<industrialforegoing:conveyor:3>*8, {
+        <industrialforegoing:conveyor>.anyDamage():[0,1,2,3,5,6,7,8],
+		<industrialforegoing:artificial_dye:3>:[4]
+    }), //Light Blue Conveyor Belt
+	
+	Util.dynamicShaped(<industrialforegoing:conveyor:4>*8, {
+        <industrialforegoing:conveyor>.anyDamage():[0,1,2,3,5,6,7,8],
+		<industrialforegoing:artificial_dye:4>:[4]
+    }), //Yellow Conveyor Belt
+	
+	Util.dynamicShaped(<industrialforegoing:conveyor:5>*8, {
+        <industrialforegoing:conveyor>.anyDamage():[0,1,2,3,5,6,7,8],
+		<industrialforegoing:artificial_dye:5>:[4]
+    }), //Lime Conveyor Belt
+	
+	Util.dynamicShaped(<industrialforegoing:conveyor:6>*8, {
+        <industrialforegoing:conveyor>.anyDamage():[0,1,2,3,5,6,7,8],
+		<industrialforegoing:artificial_dye:6>:[4]
+    }), //Pink Conveyor Belt
+	
+	Util.dynamicShaped(<industrialforegoing:conveyor:7>*8, {
+        <industrialforegoing:conveyor>.anyDamage():[0,1,2,3,5,6,7,8],
+		<industrialforegoing:artificial_dye:7>:[4]
+    }), //Gray Conveyor Belt
+	
+	Util.dynamicShaped(<industrialforegoing:conveyor:8>*8, {
+        <industrialforegoing:conveyor>.anyDamage():[0,1,2,3,5,6,7,8],
+		<industrialforegoing:artificial_dye:8>:[4]
+    }), //Light Gray Conveyor Belt
+	
+	Util.dynamicShaped(<industrialforegoing:conveyor:9>*8, {
+        <industrialforegoing:conveyor>.anyDamage():[0,1,2,3,5,6,7,8],
+		<industrialforegoing:artificial_dye:9>:[4]
+    }), //Cyan Conveyor Belt
+	
+	Util.dynamicShaped(<industrialforegoing:conveyor:10>*8, {
+        <industrialforegoing:conveyor>.anyDamage():[0,1,2,3,5,6,7,8],
+		<industrialforegoing:artificial_dye:10>:[4]
+    }), //Purple Conveyor Belt
+	
+	Util.dynamicShaped(<industrialforegoing:conveyor:11>*8, {
+        <industrialforegoing:conveyor>.anyDamage():[0,1,2,3,5,6,7,8],
+		<industrialforegoing:artificial_dye:11>:[4]
+    }), //Blue Conveyor Belt
+	
+	Util.dynamicShaped(<industrialforegoing:conveyor:12>*8, {
+        <industrialforegoing:conveyor>.anyDamage():[0,1,2,3,5,6,7,8],
+		<industrialforegoing:artificial_dye:12>:[4]
+    }), //Brown Conveyor Belt
+	
+	Util.dynamicShaped(<industrialforegoing:conveyor:13>*8, {
+        <industrialforegoing:conveyor>.anyDamage():[0,1,2,3,5,6,7,8],
+		<industrialforegoing:artificial_dye:13>:[4]
+    }), //Green Conveyor Belt
+	
+	Util.dynamicShaped(<industrialforegoing:conveyor:14>*8, {
+        <industrialforegoing:conveyor>.anyDamage():[0,1,2,3,5,6,7,8],
+		<industrialforegoing:artificial_dye:14>:[4]
+    }), //Red Conveyor Belt
+	
+	Util.dynamicShaped(<industrialforegoing:conveyor:15>*8, {
+        <industrialforegoing:conveyor>.anyDamage():[0,1,2,3,5,6,7,8],
+		<industrialforegoing:artificial_dye:15>:[4]
+    }), //Black Conveyor Belt
+
     //integrateddynamics----------------------------------------------------------------------------------------------------
 	Util.simpleShaped(<integrateddynamics:part_machine_reader_item>, "part", [
         <enderio:block_simple_furnace>,
