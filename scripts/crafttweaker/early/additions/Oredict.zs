@@ -181,6 +181,10 @@ oreDict.waterPlant.addItems([
     <greenery:plant/submerged/watermilfoil>
 ]);
 
+oreDict.oreZollernium.addItems([
+	<zollerngalaxy:caligrozollerniumore>
+]);
+
 //enchantables
 addEnchantItems("axe",Global.axes,extraAxes);
 addEnchantItems("boots",Global.boots);
