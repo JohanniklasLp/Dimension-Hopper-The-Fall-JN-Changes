@@ -371,9 +371,9 @@ static oreDictRecipeData as IOreDictEntry[][Util.Data] = {
 
 	//respiration
 	Util.create(<enchantment:minecraft:respiration>.registryName, 50, {
-		{1:[<simpledivegear:divehelmet>],
-		2:[<simpledivegear:divehelmet>, <simpledivegear:divehelmet>]}:1,
-		{3:[<simpledivegear:divehelmet>, <simpledivegear:divehelmet>, <simpledivegear:divehelmet>]}:2
+		{1:[<immersiveengineering:toolupgrade>],
+		2:[<immersiveengineering:toolupgrade>, <immersiveengineering:toolupgrade>]}:1,
+		{3:[<immersiveengineering:toolupgrade>, <immersiveengineering:toolupgrade>, <immersiveengineering:toolupgrade>]}:2
 	}): [Global.enchant["helm"]],
 
 	//sharpness
