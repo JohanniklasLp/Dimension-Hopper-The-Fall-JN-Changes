@@ -414,6 +414,14 @@ static shapedBuilders as Holder[] = [
         <avaritia:compressed_crafting_table>
     ]), //Machine Reader
 
+	//mekanism-------------------------------------------------------------------------------------------------------------
+	Util.dynamicShaped(<mekanism:teleportationcore>, {
+        <minecraft:diamond>:[0,2,6,8],
+        <mekanism:atomicalloy>:[1,7],
+		<minecraft:gold_ingot>:[3,5],
+        <mekanism:controlcircuit:2>:[4]
+    }), //Teleportation Core
+
     //moreplates------------------------------------------------------------------------------------------------------------
     Util.dynamicShaped(<moreplates:end_steel_gear>, {
         <enderio:item_alloy_nugget:8>:[0,2,6,8],
