@@ -155,7 +155,7 @@ function recordedDisc() as IItemStack {
           if(isNull(tag)) {
             return false;
           }
-          return !isNull(tag.trackID);
+          return !isNull(tag.audio);
         }
         return false;
       });
