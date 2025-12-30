@@ -62,8 +62,8 @@ static shapedHolders as Holder[] = [
 	Util.simpleShaped(<minecraft:lapis_block>, "block", [<tp:lapis_ingot>]), //lapis block
 
 	//mist
-	Util.simpleShaped(<mist:portal_base>, "portaltop", [<dimdoors:stable_fabric>, <psi:material:1>, <naturesaura:infused_stone>]), //misty portal top
-	Util.simpleShaped(<mist:portal_base:1>, "portalbottom", [<dimdoors:stable_fabric>, <psi:material:1>, <naturesaura:infused_stone>]), //misty portal bottom
+	Util.simpleShaped(<mist:portal_base:1>, "portaltop", [<dimdoors:stable_fabric>, <psi:material:1>, <naturesaura:infused_stone>]), //misty portal top
+	Util.simpleShaped(<mist:portal_base>, "portalbottom", [<dimdoors:stable_fabric>, <psi:material:1>, <naturesaura:infused_stone>]), //misty portal bottom
 	
 	//silentgems
 	Util.simpleShaped(<silentgems:chaospylon:1>, "table", [
