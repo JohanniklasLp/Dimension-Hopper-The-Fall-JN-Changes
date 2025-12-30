@@ -8,6 +8,9 @@ for meta in 0 .. 14 {
 	PureDaisy.addRecipe(obsidian, stone, (150+(meta+1)*50));
 }
 
+//Foggy Sponge
+PureDaisy.addRecipe(<mist:sponge:14>, <mist:sponge:13>, 200);
+
 //Agate Logs
 PureDaisy.addRecipe(<gaiadimension:thick_glitter_block>, <gaiadimension:pink_agate_log>, 100);
 PureDaisy.addRecipe(<gaiadimension:pink_agate_log>, <gaiadimension:blue_agate_log>, 100);
