@@ -431,6 +431,7 @@ static itemRemovals as IItemStack[] = [
 	//mist------------------------------------------------------------------------------------------------------------------
 	<mist:filter_coal>,
 	<mist:filter_coal_block>,
+	<mist:sponge:13>, //Foggy Sponge
 
 	//moreplanets-----------------------------------------------------------------------------------------------------------
 	<moreplanets:tinted_glass>,
