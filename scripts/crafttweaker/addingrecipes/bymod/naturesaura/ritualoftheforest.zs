@@ -35,6 +35,9 @@ TreeRitual.addRecipe("storagedrawerstatus", <integrateddynamics:menril_sapling>,
 //storage drawers status 2
 TreeRitual.addRecipe("storagedrawerstatus2", <integrateddynamics:menril_sapling>, <storagedrawers:upgrade_status:1>, 200, [<storagedrawers:upgrade_status>, <minecraft:stick>, <moreplates:empowered_restonia_gear>, <minecraft:stick>, <moreplates:empowered_restonia_gear>, <minecraft:stick>, <moreplates:empowered_restonia_gear>, <minecraft:stick>]);
 
+//Dark Pearl
+TreeRitual.addRecipe("darkpearl", <minecraft:sapling>, <midnight:dark_pearl>, 600, [<aether:zanite_gemstone>, <aether:ambrosium_shard>, <aether:aechor_petal>, <aether:valkyrie_wings>, <aether:arkenium>, <minecraft:nether_star>, <aether:quicksoil>, <aether:aercloud>]);
+
 //MA clusters
 TreeRitual.addRecipe("nethercluster", <integrateddynamics:menril_sapling>, <mysticalagriculture:crafting:8>, 600, [<overloaded:compressed_netherrack>, <quark:sandstone_new:4>, <minecraft:nether_wart_block>, <biomesoplenty:flesh>]);
 TreeRitual.addRecipe("dyecluster", <integrateddynamics:menril_sapling>, <mysticalagriculture:crafting:7>, 600, [<industrialforegoing:artificial_dye>, <industrialforegoing:artificial_dye:13>, <industrialforegoing:artificial_dye:15>, <industrialforegoing:artificial_dye:2>, <industrialforegoing:artificial_dye:4>, <industrialforegoing:artificial_dye:6>, <industrialforegoing:artificial_dye:8>, <industrialforegoing:artificial_dye:10>]);
