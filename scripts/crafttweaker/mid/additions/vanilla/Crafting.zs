@@ -166,7 +166,8 @@ static shapedBuilders as Holder[] = [
     Util.simpleShaped(<cookingforblockheads:oven>, "portalbottom", [
         <immersiveengineering:metal_device1>,
         <tconstruct:clear_stained_glass:15>,
-        <thermalfoundation:material:32>
+        <thermalfoundation:material:32>,
+		<tconstruct:clear_stained_glass:15>
     ]), //Oven
 
     //darkutils-------------------------------------------------------------------------------------------------------------
