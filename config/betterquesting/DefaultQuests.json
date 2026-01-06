@@ -9844,6 +9844,7 @@
       "tasks:9": {
         "0:10": {
           "index:3": 0,
+          "ignoreNBT:1": 1,
           "requiredItems:9": {
             "0:10": {
               "Count:3": 1,
